@@ -1,3 +1,6 @@
+################
+
+
 res1 <- results(dds, contrast=c("condition", "Wildtype", "Mock"), independentFiltering=TRUE, alpha=0.05, pAdjustMethod="BH")
 res2 <- results(dds, contrast=c("condition", "delNS", "Mock"), independentFiltering=TRUE, alpha=0.05, pAdjustMethod="BH")
 res3 <- results(dds, contrast=c("condition", "3M", "Mock"), independentFiltering=TRUE, alpha=0.05, pAdjustMethod="BH")
